@@ -30,7 +30,8 @@ export const userService = {
   deleteStaff: (id) => api.delete(`/users/staff/${id}`),
 }
 
-export default api import axios from 'axios'
+export default api 
+import axios from 'axios'
 
 const API_URL = 'http://localhost:5000/api'
 
